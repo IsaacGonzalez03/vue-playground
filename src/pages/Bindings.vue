@@ -64,7 +64,7 @@
   setup() {
     const state = reactive({
           //typing in the input changes the value of name
-          myName: "Type your name here"
+          myName: "Isaac"
     })
     return {
       state
@@ -144,8 +144,7 @@ export default {
   name: "bindings",
   setup() {
     const state = reactive({
-      note:
-        '<!--The data property "myName" is being watched and will cause a rerender on value change-->',
+      note: '<!--The data property "myName" is being watched and will cause a rerender on value change-->',
       note2:
         '<!--The bool adds or removes the class "active" to the element-->',
       val: "{{ }}",
